@@ -1,0 +1,38 @@
+{
+  "name": "ethereum-dapps-examples",
+  "version": "0.0.1",
+  "scripts": {
+    "deploy-contracts": "truffle migrate --network rpc",
+    "start": "node ./app/server",
+    "testrpc": "ganache-cli",
+    "test": "truffle test",
+    "truffle": "truffle"
+  },
+  "keywords": [
+    "Ethereum",
+    "SmartContracts",
+    "DApps"
+  ],
+  "author": "Francesco Strazzullo (francesco.strazzullo86@gmail.com)",
+  "license": "MIT",
+  "standard": {
+    "globals": [
+      "artifacts",
+      "contract",
+      "it",
+      "beforeEach",
+      "assert",
+      "web3"
+    ]
+  },
+  "devDependencies": {
+    "ganache-cli": "7.0.0-beta.0",
+    "standard": "10.0.3",
+    "truffle": "4.0.4"
+  },
+  "dependencies": {
+    "body-parser": "1.18.2",
+    "express": "4.16.2",
+    "web3": "1.0.0-beta.27"
+  }
+}
